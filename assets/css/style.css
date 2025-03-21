@@ -30,6 +30,11 @@
     opacity: 0.6;
     color: #fff;
     font-size: 12px;
+    margin-inline: 2px;
+}
+
+.wrap_left .contacts a:hover{
+    color: black;
 }
 
 .wrap_right {
@@ -53,6 +58,10 @@
     text-decoration: none;
 }
 
+.social_icons a:hover {
+    color: #000000;
+    text-decoration: none;
+}
 
 .reg a {
     font-size: 13px;
@@ -60,10 +69,18 @@
     font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;
-    gap: 20px;
     color: #fff;
     opacity: 0.8;
 }
+
+.reg a:hover {
+    transform: translateY(-5px);
+    color: black;
+    text-decoration: none;
+}
+
+/*Wrapper Responsive*/
+
 
 /* Navbar */
 #nav_area {
@@ -88,9 +105,9 @@
     height: 100%;
 }
 
-#nav_area .container .navbar .brand_title {
+#nav_area .container .navbar .brand_title a{
+    text-decoration: none;
     display: flex;
-    align-items: center;
     gap: 2px;
 }
 
@@ -98,6 +115,8 @@
     font-family: "Spectral", serif;
     font-size: 24px;
     font-weight: 700;
+    color: #ffffff;
+    opacity: 0.8;
     text-transform: uppercase;
     margin: 0;
 }
@@ -107,6 +126,7 @@
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
+    color: #ffffff;
     opacity: 0.6;
     margin: 0;
 }
@@ -122,16 +142,40 @@
 .nav_list .nav_item a{
     text-decoration: none;
     font-family: "Spectral", serif;
-    color: #000000;
+    color: #ffffff;
+    opacity: 0.8;
     font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
 }
 
-.nav_list .nav_item a .icon{
+.nav_list .nav_item a:hover {
     color: #b7472a;
-    font-size: 18px;
-    font-weight: bolder;
 }
 
+.nav_list .nav_item a .icon{
+    color: #b7472a;
+    font-size: 20px;
+}
+
+.nav_list .nav_item a .icon:hover {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+
+/*NavBar Responsive*/
+@media (max-width:991px) {
+    .nav_list {
+        display: none;
+    }
+}
+
+
 /*Hero Area*/
+#hero_area {
+    height: 750px;
+}
+
+
+
