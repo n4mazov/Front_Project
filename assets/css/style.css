@@ -173,9 +173,43 @@
 
 
 /*Hero Area*/
-#hero_area {
-    height: 750px;
+.hero-wrap {
+    height: 850px;
+    background-image: url(/assets/images/bg_2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    left: 0;
+    right: 0;
 }
 
+.hero-wrap {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    z-index: 0;
+    height: 750px; }
+    @media (max-width: 1199.98px) {
+      .hero-wrap {
+        background-position: center center !important; } }
 
+.container {
+    z-index: 999;
+    height: 100%;
+}
 
+.container .hero_content h1{
+    color: #ffffff;
+    font-family: "Spectral", serif;
+}
+
+@media (max-width: 991.98px) {
+    .hero-wrap .slider-text h1 {
+      font-size: 40px; } }
+
+.container .hero_content a{
+    color: #ffffff;
+    font-family: "Spectral", serif;
+}
