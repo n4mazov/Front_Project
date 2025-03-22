@@ -233,7 +233,8 @@
 #intro .container .info_card .info_content{
     width: 230px;
     height: 165px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
 }
 
 #intro .container .info_card h2{
@@ -252,10 +253,8 @@
 }
 
 #intro .container .info_card .icon{
-    width: 60px;
-    height: 62px;
+    height: 45px;
     margin-top: 35px;
-    margin-right: 10px;
 }
 #intro .container .info_card .icon i{
     font-size: 40px;
@@ -263,3 +262,67 @@
 }
 
 /*Info*/
+#info_area .container {
+    height: 100%;
+    padding-top: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#info_area .container .info_pic{
+    padding: 0px, 15px;
+}
+
+#info_area .container .info{
+    width: 600px;
+    height: 400px;
+    padding: 48px 15px 48px 48px;
+}
+
+#info_area .container .info h6{
+    font-size: 16px;
+    font-style: italic;
+    font-family: "Spectral", serif;
+    color: #b7472a;
+    margin-bottom: 30px;
+}
+
+#info_area .container .info h1{
+    font-size: 40px;
+    font-family: "Spectral", serif;
+    color: #000000;
+    margin: 0px 0px 24px;
+    font-weight: 700;
+}
+
+#info_area .container .info p{
+    font-size: 16px;
+    font-family: "Spectral", serif;
+    color: #000000;
+    opacity: 0.6;
+}
+
+#info_area .container .info #text{
+    display: flex;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+#info_area .container .info #text h2{
+    font-size: 30px;
+    font-style: italic;
+    font-family: "Spectral", serif;
+    color: #b7472a;
+}
+
+#info_area .container .info #text h3{
+    font-size: 30px;
+    font-family: "Spectral", serif;
+    color: #000000;
+}
+
+
+#info_area .container .info_pic img{
+    width: 570px;
+    height: 512px;
+}
