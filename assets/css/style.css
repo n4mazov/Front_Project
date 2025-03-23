@@ -347,7 +347,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .photos .photo_card h5 {
@@ -362,11 +362,103 @@
     border-radius: 100%;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+    --b: 3px;     /* the border thickness*/
+    --g: 10px;    /* the gap */
+    --c: #4ECDC4; /* the color */
+    outline: calc(var(--s)/2) solid #0009;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: .3s;
 }
 
 .photos img:hover {
     transform: translateY(-5px);
     cursor: pointer;
-    border: #a23f25 solid;
     transition: 0.4s;
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+  }
+  
+/*Catalog*/
+#catalog_area {
+    padding-top: 96px;
+}
+
+.catalog_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 48px;
+}
+
+.catalog_title h1, p{
+    font-family: "Spectral", serif;
+}
+
+.catalog_title p{
+    font-style: italic;
+    color: #b7472a;
+}
+
+.catalog_title h1{
+    font-weight: 700;
+    color: #000000;
+}
+
+#catalog_area .container .staff {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+#catalog_area .container .staff .staff_card {
+    width: 270px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#catalog_area .container .staff .staff_card .info{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#catalog_area .container .staff_card img {
+    width: 225px;
+    height: 350px;
+    border-radius: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+#catalog_area .container .staff_card img:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+#catalog_area .container .staff_card .info p, h4, h6 {
+    font-family: "Spectral", serif;
+}
+
+#catalog_area .container .staff_card .info p {
+    font-size: 16px;
+    font-style: italic;
+    color: #b7472a;
+}
+
+#catalog_area .container .staff_card .info h6 {
+    font-size: 16px;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+#catalog_area .container .staff_card .info h4 {
+    font-size: 22px;
+    font-weight: 400;
 }
