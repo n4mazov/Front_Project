@@ -434,13 +434,11 @@
     transition: transform 0.5s ease-in-out;
 }
 
-
 #catalog_area .container .staff_card img:hover {
     transform: translateY(-5px);
     cursor: pointer;
     transition: 0.5s;
 }
-
 
 #catalog_area .container .staff_card .info p, h4, h6 {
     font-family: "Spectral", serif;
