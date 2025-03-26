@@ -1,0 +1,8 @@
+.hero-wrap {
+    background-image: url(/assets/images/bg_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    z-index: 0;
+}
