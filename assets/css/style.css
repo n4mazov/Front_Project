@@ -271,6 +271,17 @@
     padding-top: 96px;
 }
 
+#info_area .container .about{
+    display: flex;
+    gap: 30px;
+}
+
+@media (width < 768px) {
+    .info_pic {
+        display: none;
+    }
+}
+
 #info_area .container .info_pic {
     background-image: url(/assets/images/about.jpg);
     width: 570px;
@@ -555,6 +566,12 @@
     font-family: "Spectral", serif;
     color: #ffffff;
 
+}
+
+@media (width < 768px) {
+    .user_img {
+        background-image: none;
+    }
 }
 
 /*Recent Blog*/
