@@ -576,7 +576,7 @@
 
 /*Recent Blog*/
 #recent_blog {
-    padding-top: 96px;
+    padding-block: 96px;
 }
 
 #recent_blog .container {
@@ -655,4 +655,22 @@
     .blog_card .blog_content {
         padding-inline: 20px;
     }
+}
+
+/*Footer*/
+.ftco-footer a{
+    text-decoration: none;
+}
+
+.footer_list h2 a, span{
+    text-decoration: none;
+}
+
+.footer_list ul li a{
+    text-decoration: none;
+}
+
+.footer_list .via li a span.text{
+    text-decoration: none;
+    list-style: none;
 }
