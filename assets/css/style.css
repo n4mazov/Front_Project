@@ -168,6 +168,12 @@
     display: inline-block;
   }
 
+  .dropdown .btn {
+    --bs-btn-padding-x: 0rem;
+    --bs-btn-padding-y: 0rem;
+    --bs-btn-font-size: 0.9rem;
+  }
+
   .dropdown button{
     border: none;
     color: #ffffff;
