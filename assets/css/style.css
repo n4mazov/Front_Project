@@ -544,6 +544,17 @@
     transition: 0.5s;
 }
 
+#catalog_area .container .more_btn button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#catalog_area .container .more_btn button a:hover {
+    color: #b7472a;
+    transition: 0.5s;
+    transform: translateY(-5px);
+}
+
 #catalog_area .container .more_btn button:hover {
     background-color: #ffffff;
     color: #b7472a;
